@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		BD8BB05D23E6619500063D9C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8BB05C23E6619500063D9C /* main.swift */; };
+		BD8BB06823E661B900063D9C /* BirthdayCandles.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8BB06323E661B900063D9C /* BirthdayCandles.swift */; };
+		BD8BB06923E661B900063D9C /* MinMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8BB06423E661B900063D9C /* MinMax.swift */; };
+		BD8BB06A23E661B900063D9C /* stairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8BB06523E661B900063D9C /* stairs.swift */; };
+		BD8BB06B23E661B900063D9C /* MilitaryTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8BB06623E661B900063D9C /* MilitaryTime.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		BD8BB05923E6619500063D9C /* HackerRank */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HackerRank; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD8BB05C23E6619500063D9C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		BD8BB06323E661B900063D9C /* BirthdayCandles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirthdayCandles.swift; sourceTree = "<group>"; };
+		BD8BB06423E661B900063D9C /* MinMax.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinMax.swift; sourceTree = "<group>"; };
+		BD8BB06523E661B900063D9C /* stairs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = stairs.swift; sourceTree = "<group>"; };
+		BD8BB06623E661B900063D9C /* MilitaryTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MilitaryTime.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 		BD8BB05B23E6619500063D9C /* HackerRank */ = {
 			isa = PBXGroup;
 			children = (
+				BD8BB06323E661B900063D9C /* BirthdayCandles.swift */,
+				BD8BB06623E661B900063D9C /* MilitaryTime.swift */,
+				BD8BB06423E661B900063D9C /* MinMax.swift */,
+				BD8BB06523E661B900063D9C /* stairs.swift */,
 				BD8BB05C23E6619500063D9C /* main.swift */,
 			);
 			path = HackerRank;
@@ -120,7 +132,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD8BB06B23E661B900063D9C /* MilitaryTime.swift in Sources */,
 				BD8BB05D23E6619500063D9C /* main.swift in Sources */,
+				BD8BB06A23E661B900063D9C /* stairs.swift in Sources */,
+				BD8BB06923E661B900063D9C /* MinMax.swift in Sources */,
+				BD8BB06823E661B900063D9C /* BirthdayCandles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
