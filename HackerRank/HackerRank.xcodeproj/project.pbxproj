@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BD8BB05D23E6619500063D9C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8BB05C23E6619500063D9C /* main.swift */; };
+		BD8BB05D23E6619500063D9C /* CavityMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8BB05C23E6619500063D9C /* CavityMap.swift */; };
 		BD8BB06823E661B900063D9C /* BirthdayCandles.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8BB06323E661B900063D9C /* BirthdayCandles.swift */; };
 		BD8BB06923E661B900063D9C /* MinMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8BB06423E661B900063D9C /* MinMax.swift */; };
 		BD8BB06A23E661B900063D9C /* stairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8BB06523E661B900063D9C /* stairs.swift */; };
 		BD8BB06B23E661B900063D9C /* MilitaryTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8BB06623E661B900063D9C /* MilitaryTime.swift */; };
+		BD8BB07423E6629C00063D9C /* CavityMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8BB07323E6629C00063D9C /* CavityMapTests.swift */; };
+		BD8BB07923E6633E00063D9C /* CavityMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8BB05C23E6619500063D9C /* CavityMap.swift */; };
+		BD8BB07B23E6639700063D9C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8BB07A23E6639700063D9C /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,15 +31,26 @@
 
 /* Begin PBXFileReference section */
 		BD8BB05923E6619500063D9C /* HackerRank */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HackerRank; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD8BB05C23E6619500063D9C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		BD8BB05C23E6619500063D9C /* CavityMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CavityMap.swift; sourceTree = "<group>"; };
 		BD8BB06323E661B900063D9C /* BirthdayCandles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirthdayCandles.swift; sourceTree = "<group>"; };
 		BD8BB06423E661B900063D9C /* MinMax.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinMax.swift; sourceTree = "<group>"; };
 		BD8BB06523E661B900063D9C /* stairs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = stairs.swift; sourceTree = "<group>"; };
 		BD8BB06623E661B900063D9C /* MilitaryTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MilitaryTime.swift; sourceTree = "<group>"; };
+		BD8BB07123E6629C00063D9C /* HackerRankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackerRankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD8BB07323E6629C00063D9C /* CavityMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CavityMapTests.swift; sourceTree = "<group>"; };
+		BD8BB07523E6629C00063D9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD8BB07A23E6639700063D9C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BD8BB05623E6619500063D9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD8BB06E23E6629C00063D9C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -50,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				BD8BB05B23E6619500063D9C /* HackerRank */,
+				BD8BB07223E6629C00063D9C /* HackerRankTests */,
 				BD8BB05A23E6619500063D9C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				BD8BB05923E6619500063D9C /* HackerRank */,
+				BD8BB07123E6629C00063D9C /* HackerRankTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,9 +85,19 @@
 				BD8BB06623E661B900063D9C /* MilitaryTime.swift */,
 				BD8BB06423E661B900063D9C /* MinMax.swift */,
 				BD8BB06523E661B900063D9C /* stairs.swift */,
-				BD8BB05C23E6619500063D9C /* main.swift */,
+				BD8BB07A23E6639700063D9C /* main.swift */,
+				BD8BB05C23E6619500063D9C /* CavityMap.swift */,
 			);
 			path = HackerRank;
+			sourceTree = "<group>";
+		};
+		BD8BB07223E6629C00063D9C /* HackerRankTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD8BB07323E6629C00063D9C /* CavityMapTests.swift */,
+				BD8BB07523E6629C00063D9C /* Info.plist */,
+			);
+			path = HackerRankTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,6 +120,23 @@
 			productReference = BD8BB05923E6619500063D9C /* HackerRank */;
 			productType = "com.apple.product-type.tool";
 		};
+		BD8BB07023E6629C00063D9C /* HackerRankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD8BB07623E6629C00063D9C /* Build configuration list for PBXNativeTarget "HackerRankTests" */;
+			buildPhases = (
+				BD8BB06D23E6629C00063D9C /* Sources */,
+				BD8BB06E23E6629C00063D9C /* Frameworks */,
+				BD8BB06F23E6629C00063D9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackerRankTests;
+			productName = HackerRankTests;
+			productReference = BD8BB07123E6629C00063D9C /* HackerRankTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -105,6 +148,9 @@
 				ORGANIZATIONNAME = "Paul Solt";
 				TargetAttributes = {
 					BD8BB05823E6619500063D9C = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					BD8BB07023E6629C00063D9C = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
@@ -123,9 +169,20 @@
 			projectRoot = "";
 			targets = (
 				BD8BB05823E6619500063D9C /* HackerRank */,
+				BD8BB07023E6629C00063D9C /* HackerRankTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD8BB06F23E6629C00063D9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BD8BB05523E6619500063D9C /* Sources */ = {
@@ -133,10 +190,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD8BB06B23E661B900063D9C /* MilitaryTime.swift in Sources */,
-				BD8BB05D23E6619500063D9C /* main.swift in Sources */,
+				BD8BB05D23E6619500063D9C /* CavityMap.swift in Sources */,
+				BD8BB07B23E6639700063D9C /* main.swift in Sources */,
 				BD8BB06A23E661B900063D9C /* stairs.swift in Sources */,
 				BD8BB06923E661B900063D9C /* MinMax.swift in Sources */,
 				BD8BB06823E661B900063D9C /* BirthdayCandles.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD8BB06D23E6629C00063D9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD8BB07923E6633E00063D9C /* CavityMap.swift in Sources */,
+				BD8BB07423E6629C00063D9C /* CavityMapTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +345,42 @@
 			};
 			name = Release;
 		};
+		BD8BB07723E6629C00063D9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LCRLD36TZ6;
+				INFOPLIST_FILE = HackerRankTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulsolt.HackerRankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BD8BB07823E6629C00063D9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LCRLD36TZ6;
+				INFOPLIST_FILE = HackerRankTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulsolt.HackerRankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -295,6 +398,15 @@
 			buildConfigurations = (
 				BD8BB06123E6619500063D9C /* Debug */,
 				BD8BB06223E6619500063D9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD8BB07623E6629C00063D9C /* Build configuration list for PBXNativeTarget "HackerRankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD8BB07723E6629C00063D9C /* Debug */,
+				BD8BB07823E6629C00063D9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
